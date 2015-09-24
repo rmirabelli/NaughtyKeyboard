@@ -4,12 +4,14 @@
 <dict>
 	<key>AAPLNaughtyStringsBundlePrefix</key>
 	<string>${NAUGHTYSTRINGS_BUNDLE_PREFIX}</string>
+	<key>BRVersion</key>
+	<string>$(VERSION).$(BUILDNUMBER)</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<string>$(BUNDLE_ID)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -17,11 +19,11 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>$(VERSION)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<string>$(VERSION)</string>
 	<key>NSPrincipalClass</key>
 	<string></string>
 </dict>
